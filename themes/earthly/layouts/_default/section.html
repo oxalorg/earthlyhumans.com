@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h1>{{ .Section }}</h1>
+{{ range .Data.Pages.GroupByDate "2006" }}
+<div class="row">
+    <div class="col-md-12 content-card">
+        <h2>{{ .Key }}</h2>
+        <ul>
+            {{ range .Pages }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}</a> - <span class="date-meta">{{ .Date.Format "Jan 2" }}</span>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}
+{{ end }}

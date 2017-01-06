@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col-md-12 content-card">
+        <h2>{{ .Title | pluralize }}</h2>
+        <table class="table">
+            {{ $data := .Data }}
+            {{ range $key, $value := .Data.Terms.ByCount }}
+                <tr>
+                    <td><a href="{{ $.Site.BaseURL}}{{$data.Plural}}/{{ $value.Name | urlize }}">{{ $value.Name }}</a></td>
+                    <td>{{ $value.Count }}</td>
+                </tr>
+            {{ end }}
+        </table>
+    </div>
+</div>
+{{ end }}
