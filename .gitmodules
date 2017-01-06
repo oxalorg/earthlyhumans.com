@@ -1,0 +1,3 @@
+[submodule "hugo-earthly"]
+	path = themes/earthly
+	url = git@github.com:oxalorg/hugo-earthly
