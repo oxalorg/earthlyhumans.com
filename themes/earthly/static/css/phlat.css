@@ -47,14 +47,19 @@ body {
  * END NAVIGATION
  */
 
- #content-main {
-     padding-left: 10px;
-     padding-right: 10px;
- }
+#content-main {
+}
 
- #content-main .row {
-     margin-bottom: 15px;
- }
+@media only screen and (min-width: 767px) {
+    .content-card {
+        padding: 20px;
+    }
+}
+
+
+#content-main .row {
+    margin-bottom: 15px;
+}
 
 .content-card {
     background-color: #fdfdfd;
@@ -340,7 +345,7 @@ header[role="banner"] #logo-main {
 }
 
 #header-grass2 {
-	background: url(https://earthlyhumans.com/static/blog/img/grass2.png) repeat-x 0 -42px;
+	background: url(/img/grass2.png) repeat-x 0 -42px;
 	/* max-width: 640px; */
 	width: 100%;
 	margin: auto;
