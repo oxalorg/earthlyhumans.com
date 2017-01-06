@@ -1,0 +1,44 @@
+languageCode = "en-us"
+title = "My New Hugo Site"
+baseurl = "http://localhost"
+theme = "phlat"
+metaDataFormat = "yaml"
+
+[permalinks]
+    post = "/:slug/"
+    page = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
+[params]
+    keywords = ["default", "keywords", "if", "no", "front", "matter"]
+    description = "A description that will appear as a default if front matter does not exist"
+
+[[menu.header]]
+    name = "Home"
+    weight = 1
+    url = "/"
+
+[[menu.header]]
+    name = "Resources"
+    weight = 2
+    url = "/resources/"
+
+[[menu.header]]
+    name = "Contact"
+    weight = 3
+    url = "/contact/"
+
+
+[[menu.footer]]
+    name = "Contact"
+    weight = 1
+    url = "/contact/"
+
+[[menu.footer]]
+    name = "Support Us"
+    weight = 2
+    url = "/support/"
+
