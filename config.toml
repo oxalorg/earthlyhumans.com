@@ -1,7 +1,7 @@
 languageCode = "en-us"
-title = "My New Hugo Site"
-baseurl = "http://localhost"
-theme = "phlat"
+title = "Earthly Humans"
+baseurl = "http://earthlyhumans.com"
+theme = "earthly"
 metaDataFormat = "yaml"
 
 [permalinks]
@@ -13,8 +13,8 @@ metaDataFormat = "yaml"
     category = "categories"
 
 [params]
-    keywords = ["default", "keywords", "if", "no", "front", "matter"]
-    description = "A description that will appear as a default if front matter does not exist"
+    keywords = ["humans", "philosophy", "modern", "stone age"]
+    description = "A look into earthly humans all the way from Stone age to Modern day and beyond."
 
 [[menu.header]]
     name = "Home"
