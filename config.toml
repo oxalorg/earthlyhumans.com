@@ -1,6 +1,5 @@
-languageCode = "en-us"
 title = "Earthly Humans"
-baseurl = "http://earthlyhumans.com"
+baseurl = "/"
 theme = "earthly"
 metaDataFormat = "yaml"
 
