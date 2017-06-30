@@ -44,11 +44,11 @@ art to convey our message.
 </form>
 -->
 
-### Contact
+### Contact (call me maybe?)
 
-Feel free to drop me an email, I'd love to hear your thoughts.
+Feel free to drop in an email at [gaia@oxal.org](mailto:gaia@oxal.org). We’ve got a ninja monkey deployed (yeah that’s me) who will take care of the emails you send.
 
-* Email: [mitesh@oxal.org](mailto:mitesh@oxal.org)
+*Fun fact: Gaia is the goddess of earth. She’s the mother of all gods, titans, and the entire universe in the greek mythology. In religions and mythologies all across the world, there is a great importance given to the earth, maybe it’s time we give her too!*
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/svg-icons.css">
 <footer class="profile-icon-wrapper">
