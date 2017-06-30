@@ -13,14 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Owl of Athena
+title: Earthly Humans
 email: mitesh@oxal.org
 description: > # this means to ignore newlines until "baseurl:"
-  "Just like the owl of athena, our thirst for knowledge is evergrowing.
-  This is a collection of philosophies of the world and it's beings."
+  "Earthly Humans is a self exploring journey and an initiative to make lives more meaningful, by allowing people to connect, understand, and enjoy the melodic convergence of earth and humans."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-brand_name: Owl Of Athena
+brand_name: Earthly Humans
 
 # Build settings
 markdown: kramdown
@@ -29,7 +28,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-permalink: /wisdom/:title
+permalink: /gaia/:title
 sakura-jekyll-version: 0.9.0
 author:
     twitter: oxalorg
@@ -48,8 +47,8 @@ defaults:
 
 # Third-party services
 # just leave empty to disable it
-google_analytics: UA-99601612-1
-disqus_shortname: owlofathena
+google_analytics:
+disqus_shortname:
 twitter:
     username: oxalorg
 
@@ -69,8 +68,8 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
-include: 
-    - "_redirects"
+# include: 
+#     - "_redirects"
 
 excerpt_separator: <!--more-->
 
