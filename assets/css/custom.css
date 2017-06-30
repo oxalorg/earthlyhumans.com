@@ -13,8 +13,8 @@ a {
 }
 
 @font-face {
-    font-family: fancyRoman;
-    src: url('../fonts/Roman_SD.ttf');
+    /*font-family: fancyRoman;
+    src: url('../fonts/Roman_SD.ttf');*/
 }
 
 .fancy-font {
@@ -25,8 +25,13 @@ a {
     float: right;
 }
 
+.site-logo {
+    max-height: 200px;
+}
+
 #site-header {
     overflow: hidden;
+    text-align: center;
 }
 
 #site-header h1 {
@@ -42,15 +47,17 @@ a {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
+    text-transform: uppercase;
 }
 
 #site-header nav ul li:first-child {
-    float: left;
+    /*float: left;*/
 }
 
 #site-header nav ul li {
+    margin-right: 10px;
     display: inline-block;
-    float: right;
+    /*float: right;*/
 }
 
 #site-footer {
